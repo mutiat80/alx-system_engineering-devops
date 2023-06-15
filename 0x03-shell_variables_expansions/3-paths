@@ -1,3 +1,4 @@
 #!/bin/bash
-echo $path | tr ':' '\' | wc -1
+echo $path | tr ':' '\n' | wc -1
+
 
